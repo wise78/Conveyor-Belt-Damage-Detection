@@ -1,0 +1,145 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+conveyor_env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+dataset_snapshots/
+outputs/
+*.tflite
+*.pt
+*.onnx
+*.pkl
+*.h5
+*.pth
+
+# Logs
+*.log
+logs/
+log/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Configuration files with sensitive data
+config/local_*.json
+config/production_*.json
+.env
+.env.local
+.env.production
+
+# Data files
+datasets/
+data/
+*.csv
+*.json
+!config/*.json
+
+# Model files (large files)
+models/
+*.weights
+*.cfg
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# System files
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Network and camera test files
+test.mp4
+test.jpg
+test.png
+*.avi
+*.mov
+*.mkv
+
+# Edge TPU specific
+*.edgetpu
+edgetpu_compiler.log
+
+# TensorFlow
+*.pb
+*.pbtxt
+*.meta
+checkpoint
+*.ckpt*
+
+# YOLO specific
+*.weights
+*.cfg
+*.names
+yolo*.cfg
+darknet*.cfg
+
+# Raspberry Pi specific
+*.img
+*.iso
+boot/
+rootfs/
+
+# Monitoring and profiling
+*.stats
+profile_*.txt
+memory_*.txt

@@ -1,0 +1,21 @@
+{
+  "model_path": "best_edgetpu.tflite",
+  "device": "tpu:0",
+  "img_size": 256,
+  "confidence": 0.25,
+  "enable_roi": true,
+  "roi_mode": "manual",
+  "roi_shape": "rectangle",
+  "roi_coords": [100, 100, 500, 400],
+  "roi_polygon_points": [],
+  "roi_circle_center": [300, 250],
+  "roi_circle_radius": 150,
+  "roi_color": [0, 255, 255],
+  "roi_thickness": 2,
+  "display": true,
+  "draw_thick": 2,
+  "warmup_frames": 10,
+  "save_output": false,
+  "output_dir": "outputs",
+  "output_name": "result"
+}
