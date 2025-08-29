@@ -1,0 +1,7 @@
+ultralytics==8.3.185
+opencv-python>=4.8.0
+numpy>=1.23.0,<2.0.0
+# EdgeTPU and TFLite runtime (choose wheel matching your Pi OS/arch)
+pycoral
+# For TFLite inference backend used by Ultralytics (EdgeTPU delegate supported)
+tflite-runtime>=2.14.0
